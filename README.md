@@ -35,4 +35,4 @@ pip install -r requirements.txt
   ```
 
 ## Author
-Created by [Your Name]
+Created by our group
