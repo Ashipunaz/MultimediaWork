@@ -1,4 +1,3 @@
-# MultimediaWork
 # Fashion-MNIST Classification with CNN
 
 ## Overview
@@ -18,10 +17,10 @@ pip install tensorflow pandas numpy seaborn matplotlib scikit-learn
 ```
 
 ## Project Structure
-- Import Libraries**: Load required Python packages.
-- Load Dataset**: Download and prepare the Fashion-MNIST dataset.
-- Data Preprocessing**: Normalize and reshape images, apply one-hot encoding.
-- Model Building**: Define and compile a CNN model.
+- **Import Libraries**: Load required Python packages.
+- **Load Dataset**: Download and prepare the Fashion-MNIST dataset.
+- **Data Preprocessing**: Normalize and reshape images, apply one-hot encoding.
+- **Model Building**: Define and compile a CNN model.
 - **Training the Model**: Train the CNN with early stopping and data augmentation.
 - **Evaluation**: Assess performance using confusion matrix and classification reports.
 
@@ -37,7 +36,9 @@ The trained CNN achieves high accuracy in classifying Fashion-MNIST images. Eval
 - Loss Curve
 - Confusion Matrix
 
+## Contributors
+- **Ashpenaz Ayubu Oseko**
 
-
-
+## License
+This project is for educational purposes and follows open-source guidelines.
 
