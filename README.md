@@ -1,40 +1,87 @@
-# Fashion-MNIST Classification with CNN
+Fashion MNIST Classification
 
-## Overview
-This project involves training a convolutional neural network (CNN) to classify images from the Fashion-MNIST dataset. The dataset contains 70,000 grayscale images of 10 different fashion categories. The model is built using TensorFlow and Keras.
+Overview
 
-## Dataset
-The Fashion-MNIST dataset consists of:
-- 60,000 training images
-- 10,000 test images
-- Image size: 28x28 pixels
-- 10 classes: T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, and Ankle boot
+This project builds a Convolutional Neural Network (CNN) to classify images from the Fashion MNIST dataset. The dataset contains grayscale images (28x28 pixels) of 10 clothing categories, such as T-shirts, shoes, and bags. The goal is to train a model to correctly identify these items.
 
-## Dependencies
-Ensure you have the following dependencies installed:
-```bash
-pip install tensorflow pandas numpy seaborn matplotlib scikit-learn
-```
+Prerequisites
 
-## Project Structure
-- **Import Libraries**: Load required Python packages.
-- **Load Dataset**: Download and prepare the Fashion-MNIST dataset.
-- **Data Preprocessing**: Normalize and reshape images.
-- **Model Building**: Define and compile a CNN model before and after augmentation.
-- **Training the Model**: Train the CNN with early stopping and data augmentation.
-- **Evaluation**: Assess performance using confusion matrix and classification reports.
+Before setting up the project, ensure you have:
 
-## Usage
-Run the Jupyter Notebook to execute the model training and evaluation process:
-```bash
-jupyter notebook fashionmnist.ipynb
-```
+A computer with Python 3.8 or later installed.
 
-## Results
-Check results through 
-- Accuracy
-- Loss Curve
-- Confusion Matrix
+pip (Python package manager) installed.
+
+An internet connection (to install dependencies and download the dataset).
+
+Installation
+
+Follow these steps to set up the project:
+
+Clone or Download the Project
+If you have Git installed, clone the repository using:
+
+git clone https://github.com/Ashipunaz/MultimediaWork.git
 
 
+If you don't have Git, you can manually download the project as a ZIP file, extract it, and navigate to the project folder.
+
+Create a Virtual Environment (Recommended)
+A virtual environment keeps dependencies organized:
+
+python -m venv env
+
+On Windows, activate it using:
+
+env\Scripts\activate
+
+On Mac/Linux, activate it using:
+
+source env/bin/activate
+
+Install Dependencies
+Install all required libraries using:
+
+pip install -r requirements.txt
+
+Running the Model
+
+Ensure dependencies are installed (see installation steps above).
+
+Run the notebook file to train the model:
+
+python mnist_final.ipynb
+
+The model will train, and you will see accuracy metrics displayed.
+
+Sample predictions will be visualized using Matplotlib.
+
+Project Files
+
+mnist_final.ipynb - The main script for training and evaluating the model.
+
+requirements.txt - A list of required Python libraries.
+
+README.md - This documentation file.
+
+Troubleshooting
+
+If using PyCharm and facing display issues with Matplotlib, add this to mnist_final.ipynb before importing matplotlib.pyplot:
+
+import matplotlib
+matplotlib.use('TkAgg')
+
+If you get a ModuleNotFoundError, ensure you installed dependencies correctly using:
+
+pip install -r requirements.txt
+
+Additional Information
+
+Fashion MNIST is an alternative to the classic MNIST dataset but with clothing categories instead of handwritten digits.
+
+The model uses CNNs (Convolutional Neural Networks), which are effective for image classification tasks.
+
+Author
+
+Created by Group 4. 🚀
 
