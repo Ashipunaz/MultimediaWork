@@ -1,10 +1,10 @@
-Fashion MNIST Classification
+**Fashion MNIST Classification**
 
-Overview
+**Overview**
 
 This project builds a Convolutional Neural Network (CNN) to classify images from the Fashion MNIST dataset. The dataset contains grayscale images (28x28 pixels) of 10 clothing categories, such as T-shirts, shoes, and bags. The goal is to train a model to correctly identify these items.
 
-Prerequisites
+**Prerequisites**
 
 Before setting up the project, ensure you have:
 
@@ -14,7 +14,7 @@ pip (Python package manager) installed.
 
 An internet connection (to install dependencies and download the dataset).
 
-Installation
+**Installation**
 
 Follow these steps to set up the project:
 
@@ -44,7 +44,7 @@ Install all required libraries using:
 
 pip install -r requirements.txt
 
-Running the Model
+**Running the Model**
 
 Ensure dependencies are installed (see installation steps above).
 
@@ -56,15 +56,19 @@ The model will train, and you will see accuracy metrics displayed.
 
 Sample predictions will be visualized using Matplotlib.
 
-Project Files
+**Project Files**
 
 mnist_final.ipynb - The main script for training and evaluating the model.
+
+model_before_augmentation.keras - Saved model before augmentaions
+
+model_after_augmentation.keras - Saved model after augmentations
 
 requirements.txt - A list of required Python libraries.
 
 README.md - This documentation file.
 
-Troubleshooting
+**Troubleshooting**
 
 If using PyCharm and facing display issues with Matplotlib, add this to mnist_final.ipynb before importing matplotlib.pyplot:
 
@@ -75,7 +79,7 @@ If you get a ModuleNotFoundError, ensure you installed dependencies correctly us
 
 pip install -r requirements.txt
 
-Additional Information
+**Additional Information**
 
 Fashion MNIST is an alternative to the classic MNIST dataset but with clothing categories instead of handwritten digits.
 
